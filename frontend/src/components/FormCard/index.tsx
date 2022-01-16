@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 import axios, { AxiosRequestConfig } from 'axios';
 import { BASE_URL } from 'utils/requests';
 import { validateEmail } from 'utils/validate';
-import { Console } from 'console';
 
 type Props = {
     movieId: string;
